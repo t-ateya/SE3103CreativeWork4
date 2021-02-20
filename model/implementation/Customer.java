@@ -13,4 +13,33 @@ public class Customer {
 		this.address = address;
 	}
 
+	@Override
+	public String toString() {
+		return "Customer{" + "ID=" + ", FullName=" + fullName + ", Address" + address + "}\n";
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+
+	public String getFullName() {
+		return fullName;
+	}
+
+	public void setFullName(String fullName) {
+		this.fullName = fullName;
+	}
+
+	public String getID() {
+		return ID;
+	}
+
+	public void setID(String iD) {
+		ID = iD;
+	}
+
 }

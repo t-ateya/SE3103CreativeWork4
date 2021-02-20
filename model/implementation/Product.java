@@ -14,6 +14,13 @@ public class Product implements IProduct {
 		count++;
 	}
 
+	public static int getCount() {
+		return count;
+	}
+	public static void setCount(int count) {
+		Product.count = count;
+	}
+
 	@Override
 	public int compareTo(IProduct product) {
 		if (id.compareTo(product.getId()) != 0) {
@@ -48,6 +55,11 @@ public class Product implements IProduct {
 	public void setPrice(double price) {
 		this.price = price;
 
+	}
+
+	@Override
+	public String toString() {
+		return "\"id\" : %s\", \"price\" : \"%.2f\"}\n";
 	}
 
 }
