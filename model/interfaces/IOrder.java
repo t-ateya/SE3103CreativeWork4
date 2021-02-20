@@ -13,9 +13,9 @@ public interface IOrder extends Comparable<IOrder> {
 
 	public void setCustomer(Customer customer);
 
-	// public ProductMap <Product> getProducts();
+	 public IProductMap <String, IProduct> getProducts();
 
-	// public void setProducts(ProductMap<Product> products);
+	public void setProducts(IProductMap<String, IProduct> products);
 
 	public Date getShippingDate();
 
