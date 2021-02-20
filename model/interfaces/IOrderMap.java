@@ -1,6 +1,6 @@
 package model.interfaces;
 
-public interface OrderMap <String, T extends Order> {
+public interface IOrderMap <String , T extends IOrder> {
 	public abstract void addOrder(String id, T t);
 	public abstract void cancelOrder(String id);
 	

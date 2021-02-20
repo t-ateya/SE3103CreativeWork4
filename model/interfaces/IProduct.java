@@ -1,6 +1,6 @@
 package model.interfaces;
 
-public interface Product extends Comparable <Product>{
+public interface IProduct extends Comparable <IProduct>{
 	public abstract String geetId();
 	public abstract double getPrice();
 

@@ -2,7 +2,7 @@ package model.interfaces;
 import model.util.Date;
 
 
-public interface Game  extends Product{
+public interface IGame  extends IProduct{
 	public abstract Date getDate();
 	public abstract String getTitle();
 

@@ -4,7 +4,7 @@ import model.util.Address;
 import model.implementation.Customer;
 import model.util.Date;
 
-public interface Order extends Comparable<Order> {
+public interface IOrder extends Comparable<IOrder> {
 	public Address getShippingAddress();
 
 	public void setShippingAddress(Address shippingAddress);

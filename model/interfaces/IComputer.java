@@ -1,6 +1,6 @@
 package model.interfaces;
 
-public interface Computer extends Product {
+public interface IComputer extends IProduct {
 	public abstract String getBrand();
 
 	public abstract int getRam();
